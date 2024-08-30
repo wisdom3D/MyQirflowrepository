@@ -1,0 +1,31 @@
+[0m11:48:27.502246 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b840902b8f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b8407361610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b84073615b0>]}
+
+
+============================== 11:48:27.505782 | 747b892c-528b-4b9e-aa66-67a0aef74516 ==============================
+[0m11:48:27.505782 [info ] [MainThread]: Running with dbt=1.8.5
+[0m11:48:27.506627 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/wisdom/.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m11:48:27.514816 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/home/wisdom/.dbt')}
+[0m11:48:27.515413 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m11:48:53.517716 [debug] [MainThread]: Starter project path: /home/wisdom/dbt-airflowp/mon_env/lib/python3.12/site-packages/dbt/include/starter_project
+[0m11:48:53.520046 [info ] [MainThread]: 
+Your new dbt project "cosmosDBT" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:48:53.531233 [info ] [MainThread]: Setting up your profile.
+[0m11:52:42.729403 [info ] [MainThread]: Profile cosmosDBT written to /home/wisdom/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m11:52:42.732140 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 255.27992, "process_user_time": 1.737181, "process_kernel_time": 0.307576, "process_mem_max_rss": "195684", "process_in_blocks": "8", "process_out_blocks": "88"}
+[0m11:52:42.732767 [debug] [MainThread]: Command `dbt init` succeeded at 11:52:42.732658 after 255.28 seconds
+[0m11:52:42.734460 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b83ef523bc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b83f97fa660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b83f4787c80>]}
+[0m11:52:42.735260 [debug] [MainThread]: Flushing usage events

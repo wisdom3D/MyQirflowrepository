@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: Cosmosvi
+    database: testproject-395000  # Put the project id!
+
+    tables:
+      - name: baba
+			- name: country
